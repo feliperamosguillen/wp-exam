@@ -8,7 +8,7 @@ Version: 1.0
 Author: FRG
 */
 
-//Check if woocommerce is active
+//Verify if woocommerce is active
 include_once(ABSPATH.'wp-admin/includes/plugin.php');
 
 if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ){
@@ -34,7 +34,9 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ){
 
     function woo_exam_required_plugin_notice(){
         ?>
-			<div class="error"><p>Error! You need to install or activate the <a target="_blank" href="https://es.wordpress.org/plugins/woocommerce/">Woocommerce</a> plugin before use "<span style="font-weight: bold;">Exam</span>" plugin.</p></div>
+			<div class="error">
+				<p>Error! You need to install or activate the Woocommerce plugin before use Exam plugin.</p>
+			</div>
 		<?php
     }
 }///
