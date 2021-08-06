@@ -8,7 +8,7 @@ Repository for WP exam
 # URL
 https://exam.developserver.net
 
-* Related posts example:
+* Related products example:
  https://exam.developserver.netproducto/sudadera-de-perro/
  
 * Products list example:
